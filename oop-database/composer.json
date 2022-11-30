@@ -1,0 +1,16 @@
+{
+    "name": "php2/oop-database",
+    "description": "type",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ahmad Firdaus",
+            "email": "ahmadfirdaus115511@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OOP\\app\\" : "app"
+        }
+    }
+}

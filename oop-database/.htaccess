@@ -1,0 +1,13 @@
+#mengaktifkan rewrite
+RewriteEngine On
+#membuat aturan rewrite
+#NC not case sensitive
+#L last row
+RewriteRule ^show/([0-9a-zA-Z]+) index.php?page=show&id=$1 [NC,L]
+#redirect jika error
+ErrorDocument 404 /PHP2/oop-database/404.html
+
+#redirect folder lama atau baru
+Redirect /PHP2/oop-database/lama.php /PHP2/oop-database/baru.php
+
+#
